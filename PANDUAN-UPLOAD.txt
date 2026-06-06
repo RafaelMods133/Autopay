@@ -1,0 +1,46 @@
+# PANDUAN UPLOAD KE GITHUB
+# ========================
+# Ikuti urutan ini satu per satu di GitHub browser
+
+LANGKAH 1: Buat file baru di GitHub
+- Klik "Add file" → "Create new file"
+- Ketik nama file persis seperti di bawah
+- Paste isi file yang sesuai
+- Klik "Commit changes"
+- Ulangi untuk file berikutnya
+
+DAFTAR FILE & PATH YANG HARUS DIBUAT:
+======================================
+
+FILE 1: package.json
+PATH: package.json
+ISI: (dari file package.json)
+
+FILE 2: next.config.js  
+PATH: next.config.js
+ISI: (dari file next.config.js)
+
+FILE 3: tsconfig.json
+PATH: tsconfig.json
+ISI: (dari file tsconfig.json)
+
+FILE 4: layout.tsx
+PATH: src/app/layout.tsx
+→ Ketik "src/app/layout.tsx" di kotak nama file
+→ GitHub otomatis buat folder src/app/
+
+FILE 5: page.tsx (root)
+PATH: src/app/page.tsx
+
+FILE 6: dashboard
+PATH: src/app/dashboard/page.tsx
+
+FILE 7: callback API
+PATH: src/app/api/callback-qris/[secret]/route.ts
+→ PENTING: ketik nama persis dengan tanda kurung siku
+
+FILE 8: h2h API
+PATH: src/app/api/h2h/trx/route.ts
+
+FILE 9: env (opsional, jangan commit ke public repo)
+PATH: .env.example
